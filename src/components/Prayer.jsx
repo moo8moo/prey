@@ -8,16 +8,16 @@ import Typography from "@mui/material/Typography";
 
 export default function MediaCard({ name, time, image }) {
 	return (
-		<Card sx={{ width: "14vw" }}>
+		<Card sx={{ width: "170px",background:'orange' }}>
 			<CardMedia
 				sx={{ height: 140 }}
 				image={image}
-				title="green iguana"
+				title="moo"
 			/>
 			<CardContent>
 				<h2>{name}</h2>
 
-				<Typography variant="h1" color="text.secondary">
+				<Typography variant="" color="black">
 					{time}
 				</Typography>
 			</CardContent>
