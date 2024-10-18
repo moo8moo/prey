@@ -158,7 +158,7 @@ export default function MainContent() {
 	return (
 		<>
 			{/* TOP ROW */}
-			<Grid container spacing={-2} style={{background:'#ffd39a`',padding:"10px",borderRadius:'5px',margin:'0%'}}>
+			<Grid container spacing={2} style={{background:'#ffd39a'}}>
 				<Grid xs={6}>
 					<div>
 						<h2>{today}</h2>
